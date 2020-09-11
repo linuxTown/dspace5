@@ -18,3 +18,12 @@ Then to delete columes and networks of the container use:
 ```
 docker-compose down
 ```
+
+.jsp files are stored in:
+*dspace-jspui\src\main\webapp*
+
+After editing the files, docker image needs to be rebuild with:
+
+```
+docker-compose up --build
+```
