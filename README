@@ -1,0 +1,10 @@
+DSpace version 5
+
+To build docker image execute this command in the root directory:
+
+```
+docker build -t dspace -f Dockerfile.jdk8 .
+```
+
+This will download all base images and dependencies so it will take some time to complete...
+
